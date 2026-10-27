@@ -191,6 +191,9 @@ public class Main {
         private void expect(char expected) {
             if (!match(expected)) {
                 throw new IllegalArgumentException("ожидался символ '" + expected + "'");
+
+
+                //fddg
             }
         }
     }
